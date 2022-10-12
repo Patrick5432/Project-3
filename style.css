@@ -49,8 +49,9 @@ body{
     max-width: auto;
 
 }
-.main-text .lending-project{
+.header .name{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     max-width: auto;
 }
