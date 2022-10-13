@@ -82,7 +82,6 @@ body {
 
 .header .name {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     max-width: auto;
 }
@@ -129,6 +128,15 @@ body {
         flex-direction: column;
         font-size: 20px;
     }
+
+    .elements-li {
+        padding-top: 5px;
+    }
+
+    .elements-a {
+        font-weight: bolder;
+    }
+
     .basics {
         display: none;
     }
@@ -140,7 +148,15 @@ body {
     }
 
     .name {
+        display: flex;
+        justify-content: center;
         padding-left: 0;
+        font-size: 31px;
     }
 
+    .main-text {
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 15px;
+    }
 }
