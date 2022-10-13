@@ -21,12 +21,16 @@ img {
 body {
     height: 100%;
     line-height: 1;
-    background-color: #E5E000;
+    background-color: grey;
 }
 
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    width: 1440px;
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: #E5E000;
 }
 
 .name {
@@ -109,6 +113,11 @@ body {
 }
 
 @media screen and (max-width: 815px) {
+    .wrapper {
+        width: auto;
+        max-width: auto;
+    }
+
     .header {
         display: flex;
         justify-content: center;
@@ -159,4 +168,11 @@ body {
         padding-left: 0;
         padding-bottom: 15px;
     }
+}
+
+@media screen and (max-width: 1142px) {
+    body {
+        background: none;
+    }
+
 }
