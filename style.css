@@ -1,29 +1,35 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
     font-family: Helvetica;
 }
-a{
+
+a {
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
-img{
+
+img {
     vertical-align: top;
 }
-body{
+
+body {
     height: 100%;
     line-height: 1;
     background-color: #E5E000;
 }
-.wrapper{
+
+.wrapper {
     min-height: 100%;
     overflow: hidden;
 }
-.name{
+
+.name {
     color: white;
     font-size: 50px;
     display: flex;
@@ -34,7 +40,8 @@ body{
     padding-bottom: 80px;
     padding-top: 80px;
 }
-.name-picture{
+
+.name-picture {
     display: flex;
     justify-content: flex-start;
     width: 100%;
@@ -45,38 +52,46 @@ body{
     padding-top: 36px;
     padding-bottom: 35px;
 }
-.main-text{
+
+.main-text {
     padding-top: 110px;
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 100px;
 }
-.ul-text-1{
+
+.ul-text-1 {
     padding-top: 20px;
 }
-.ul-text-2{
+
+.ul-text-2 {
     padding-top: 20px;
 }
-.ul-text-3{
+
+.ul-text-3 {
     padding-top: 20px;
 }
-.photo .picture{
+
+.photo .picture {
     display: flex;
     width: 100%;
     max-width: auto;
 }
-.header .name{
+
+.header .name {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     max-width: auto;
 }
-.main-text{
+
+.main-text {
     background-color: white;
     width: 100%;
     max-width: auto;
 }
-.end{
+
+.end {
     display: flex;
     justify-content: space-between;
     padding-top: 70px;
@@ -86,10 +101,12 @@ body{
     width: 100%;
     max-width: auto;
 }
-.basics{
+
+.basics {
     color: white;
     font-size: 50px;
 }
+
 @media screen and (max-width: 815px) {
     .header{
         display: flex;
