@@ -139,6 +139,7 @@ body {
     }
 
     .elements-li {
+        padding-left: 2px;
         padding-top: 5px;
     }
 
