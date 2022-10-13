@@ -24,6 +24,10 @@ body {
     background-color: grey;
 }
 
+.container {
+background: url(./img/1618933882_15-phonoteka_org-p-pattern-dlya-fona-saita-16.png);
+}
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
@@ -136,11 +140,13 @@ body {
         display: flex;
         flex-direction: column;
         font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 15px;
     }
 
     .elements-li {
-        padding-left: 2px;
-        padding-top: 5px;
+        padding-left: 10px;
+        padding-top: 20px;
     }
 
     .elements-a {
@@ -162,12 +168,20 @@ body {
         justify-content: center;
         padding-left: 0;
         font-size: 31px;
+        padding-bottom: 25px;
+        padding-top: 25px;
     }
 
     .main-text {
         padding-top: 0;
-        padding-left: 0;
+        padding-left: 10px;
         padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .end {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
