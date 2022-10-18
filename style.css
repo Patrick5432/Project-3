@@ -196,9 +196,15 @@ background: url(./img/1618933882_15-phonoteka_org-p-pattern-dlya-fona-saita-16.p
 
 }
 
-@media screen and (max-width: 315px) {
+@media screen and (max-width: 526px) {
     .name {
         padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .name {
+        font-size: 25px;
     }
 }
 
